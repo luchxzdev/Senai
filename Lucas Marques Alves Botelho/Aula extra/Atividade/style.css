@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url(img/fundo.png);
+    background-size: cover;
+    background-position: center; 
+    background-position-y: 10px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 10px #c4b70221;
+    padding: 10px;
+}
+
+.title h1 {
+    letter-spacing: 2px;
+    font-size: 60px;
+    color: #fdfdfd;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(109, 107, 107);
+}
+
+.title h2 {
+    font-size: 30px;
+    color: #fdfdfd;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(126, 125, 125);
+}
